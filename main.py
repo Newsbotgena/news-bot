@@ -10,8 +10,8 @@ import json
 import time
 
 # === Настройки ===
-TELEGRAM_TOKEN = os.getenv("7850099140:AAHFALV-Ed5tkKLqgoIQakItcxkE7_HYRdk")
-YOUR_CHAT_ID = int(os.getenv("58354833"))
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+YOUR_CHAT_ID = int(os.getenv("YOUR_CHAT_ID"))
 
 # Русскоязычные RSS-фиды по теме ИИ и умный дом
 RSS_FEEDS = [
